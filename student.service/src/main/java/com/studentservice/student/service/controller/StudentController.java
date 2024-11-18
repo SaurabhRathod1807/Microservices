@@ -28,6 +28,8 @@ public class StudentController {
 	@GetMapping("/institutes/{instituteid}")
 	public List<Student> getStudentbyinstituteid(@PathVariable("instituteid") Integer instituteid) {
 	return	studentservice.getStudentbyinstituteid(instituteid);
+	
+	
 		
 		
 		
